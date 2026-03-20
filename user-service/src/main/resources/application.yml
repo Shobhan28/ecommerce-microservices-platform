@@ -5,6 +5,9 @@ spring:
   application:
     name: user-service
 
+jwt:
+  secret: "mySuperSecretKeyForJwtGenerationMySuperSecretKeyForJwtGeneration12345"
+  expiration: 86400000   # 1 day in milliseconds
 
 eureka:
   client:
